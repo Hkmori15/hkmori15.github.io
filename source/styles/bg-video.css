@@ -1,0 +1,26 @@
+.bg-video {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.bg-video video {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.shadow {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+}

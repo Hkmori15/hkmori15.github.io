@@ -1,0 +1,93 @@
+@import url('https: //fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, serif;
+    background: linear-gradient(180deg, #241f31 0%, #000000 100%);
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.navbar-nav .nav-link.active {
+    color: antiquewhite;
+}
+
+.navbar-brand {
+    color: azure;
+}
+
+.nav-link dropdown-toggle {
+    color: beige;
+}
+
+.dropdown-item {
+    color: whitesmoke;
+}
+
+.dropdown-menu {
+    background-color: #212529;
+}
+
+.navbar-toggler {
+    background-color: ivory;
+}
+
+.footer-text {
+    color: cornsilk;
+    margin: auto auto;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    max-width: 800px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: floralwhite;
+    background: linear-gradient(360deg, #241f31 0%, #000000 100%);
+    border-radius: 2em;
+    font-size: 80%;
+    margin-left: 10em;
+}
+
+a {
+    margin-inline: 0.5em;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.footer p:hover {
+    color: gray;
+}
+
+.footer a:hover {
+    color: gray;
+}
+
+.accordion-button {
+    color: gainsboro;
+    background: linear-gradient(90deg, #241f31 0%, #000000 100%);
+}
+
+.accordion-body {
+    color: gainsboro;
+    background-color: #181717;
+}
+
+.accordion-button:hover {
+    color: white;
+}
+
+.accordion {
+    --bs-accordion-border-color: none;
+    --bs-accordion-active-color: none;
+}
+
+.btn-primary {
+    --bs-btn-bg: black;
+    --bs-btn-hover-bg: rgb(31, 28, 28);
+    --bs-btn-border-color: none;
+}

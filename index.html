@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="source/styles/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon.ico">
+    <link rel="manifest" href="/source/files/favicon_io/favicon.ico">
+    <link rel="stylesheet" href="source/styles/bg-video.css">
+    <title>Bio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Bio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stack.html">My stack</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                My contact info
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://telegram.me/hk_mori">My telegram</a></li>
+                                <li><a class="dropdown-item" href="https://telegram.me/MemigeBot">My telegram bot</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://github.com/Hkmori15">My GitHub</a></li>
+                                <li><a class="dropdown-item" href="https://www.instagram.com/egor_least">My
+                                        Instagram</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section>
+        <div class="bg-video">
+            <video src="source/files/video_2024-07-02_20-10-11.mp4" type="video/mp4" autoplay muted loop></video>
+            <div class="shadow"></div>
+        </div>
+
+        <div class="accordion mt-5 mx-5" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        A little bit about me
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ol>
+                            <li>I'm Egor</li>
+                            <li>My age: 18</li>
+                            <li>My favorite color: black</li>
+                            <li>I like sleep</li>
+                            <li>Languages: english, ukrainian, russian, japanese, know a few word of polish</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Why i choose frontend
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Just i like frontend lmao</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What i want to learn in future
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>I need to learn more about JS, know only basic JS.</p>
+                        <p>Next i want to learn Node JS // yep it's strange</p>
+                        <p>Duper puper popular fremework React</p>
+                        <p>And i don't forget about TypeScript</p>
+                        <p>Need learn more about Sass, SQL, MongoDB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-3">
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 footer-text">
+                        <p>All right reserved 2024</p>
+                    </div>
+                    <div class="col-lg-4 footer-text">
+                        <p>Made by Hkmori</p>
+                    </div>
+                    <div class="col-lg-4 footer-text">
+                        <p>Resources for creating this site: </p>
+                        <a href="https://getbootstrap.com/">BootStrap</a>
+                        <a href="https://webcode.tools/">WebCode tool</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
